@@ -23,7 +23,7 @@ export default function RootLayout({
         <ProviderTheme>
           <NavMenu />
           <Header />
-          <div className="content">{children}</div>
+          <div className="page-layout">{children}</div>
         </ProviderTheme>
       </body>
     </html>

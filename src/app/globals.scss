@@ -20,8 +20,8 @@ body {
   @apply grid grid-cols-[20vw_1fr] grid-rows-[60px_1fr] gap-8 bg-body;
 }
 
-.content {
-  @apply col-start-2 row-start-2 bg-primary p-6 my-6 w-[99%] rounded-lg mx-auto;
+.page-layout {
+  @apply col-start-2 row-start-2 p-6 my-6 w-[99%] rounded-lg mx-auto;
 }
 
 .btn-header {
