@@ -1,0 +1,29 @@
+.nav__list {
+  @apply font-medium uppercase text-subtitle text-2xl my-6;
+}
+
+.nav__list--subtitle {
+  @apply text-dark-gray font-bold py-2 text-[1.3rem];
+}
+
+.nav__list li {
+  @apply text-2xl my-5 relative capitalize text-subtitle;
+}
+
+.nav__list li a {
+  @apply p-4 block;
+}
+
+.nav__list li a:hover {
+  @apply text-blue cursor-pointer rounded-xl transition-all duration-200 bg-gray bg-opacity-15;
+}
+
+.nav__list--active a {
+  @apply text-blue bg-fade-blue rounded-r-xl;
+}
+
+.nav__list--active::after {
+  content: "";
+  @apply absolute top-0 left-0 w-[3px] h-full bg-blue;
+}
+/*# sourceMappingURL=nav-list.module.css.map */

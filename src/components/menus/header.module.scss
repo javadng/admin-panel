@@ -1,0 +1,19 @@
+.header {
+  @apply flex justify-between items-center bg-primary px-6 p-4 mx-auto row-start-1 col-start-2 w-[98%] h-[60px] my-6 shadow-md rounded-xl;
+
+  &__icons {
+    @apply flex justify-between items-center;
+  }
+
+  &__profile {
+    @apply mx-5 p-4 text-5xl;
+  }
+
+  &__search {
+    @apply flex items-center capitalize text-dark;
+
+    &--box {
+      @apply text-subtitle;
+    }
+  }
+}

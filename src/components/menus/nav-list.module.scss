@@ -1,0 +1,30 @@
+.nav__list {
+  @apply font-medium uppercase text-subtitle text-2xl my-6;
+
+  &--subtitle {
+    @apply text-dark-gray font-bold py-2 text-[1.3rem];
+  }
+
+  li {
+    @apply text-2xl my-5 relative capitalize text-subtitle;
+    
+    a {
+      @apply p-4 block;
+    }
+    a:hover {
+      @apply text-blue cursor-pointer rounded-xl transition-all duration-200 bg-gray bg-opacity-15;
+    }
+  }
+
+  &--active {
+    a {
+      @apply text-blue bg-fade-blue rounded-r-xl;
+
+    }
+
+    &::after {
+      content: "";
+      @apply absolute top-0 left-0 w-[3px] h-full bg-blue;
+    }
+  }
+}
